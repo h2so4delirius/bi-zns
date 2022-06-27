@@ -1,0 +1,44 @@
+?- rodic(homer_simpson,Y).
+Y = bart_simpson ;
+Y = liza_simpson ;
+Y = maggie_simpson .
+
+
+?- zena(liza_simpson).
+true.
+
+
+?- muz(maggie_simpson).
+false.
+
+?- sestra(marge_bouvier,Y).
+Y = marge_bouvier ;
+Y = patty_bouvier ;
+Y = selma_bouvier.
+
+
+?- bratr(homer_simpson,herb_simpson).
+true.
+
+?- deda(X,bart_simpson).
+X = abe_simpson ;
+X = clancy_bouvier .
+
+
+?- baba(mona_simpson,Y).
+Y = bart_simpson ;
+Y = liza_simpson ;
+Y = maggie_simpson .
+
+?- muz(abe_simpson).
+true.
+
+?- vnuk(bart_simpson,Y).
+Y = abe_simpson ;
+Y = clancy_bouvier ;
+Y = mona_simpson ;
+Y = jacqueline_bouvier .
+
+?- bratr(bart_simpson,ling_bouvier).
+false.
+
